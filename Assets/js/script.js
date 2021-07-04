@@ -13,6 +13,7 @@ function writePassword() {
 function generatePassword() {
 
   var charset = ""
+  var retPassword = ""
 
   // Password length
   var length = parseInt(window.prompt("How long do you want your password to be? (min: 8, max: 128)"))
@@ -44,7 +45,13 @@ function generatePassword() {
     charset = charset + "!#$%&()*+-,/:;<=>?@[]^_`{}|~"
   }
 
-  console.log(charset);
+  console.log("charset: " + charset);
+
+  for (var i = 0, c = charset.length; i < length; i++) {
+    retPassword += charset.charAt(Math.floor(Math.random() * c))
+  }
+  
+  return retPassword;
 }
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
