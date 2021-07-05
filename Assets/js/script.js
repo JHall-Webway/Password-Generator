@@ -27,22 +27,22 @@ function generatePassword() {
 
   var lowerCase = window.confirm("Do you want lower case?");
   if (lowerCase) {
-    charset = charset + "abcdefghijklmnopqrstuvwxyz"
+    charset += "abcdefghijklmnopqrstuvwxyz"
   }
 
   var upperCase = window.confirm("Do you want upper case?");
   if (upperCase) {
-    charset = charset + "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    charset += "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
   }
 
   var numeric = window.confirm("Do you want numbers?");
   if (numeric) {
-    charset = charset + "1234567890"
+    charset += "1234567890"
   }
 
   var specialChar = window.confirm("Do you want special characters?");
   if (specialChar) {
-    charset = charset + "!#$%&()*+-,/:;<=>?@[]^_`{}|~"
+    charset += "!#$%&()*+-,/:;<=>?@[]^_`{}|~"
   }
 
   console.log("charset: " + charset);
