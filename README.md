@@ -4,12 +4,12 @@ This password generator uses javascript in order to generate passwords with the 
 
 ## Repository Navigation
 
-The updated html and CSS pages can be found on the following [Github](https://github.com/JHallUofA/JHallWebDevPortfolio)
+The updated html and CSS pages can be found on the following [Github](https://github.com/JHallUofA/Password-Generator)
 
 ## Website Navigation
 
-Live access to the website can be reached using the following [Github Page](https://jhalluofa.github.io/JHallWebDevPortfolio/)
+Live access to the website can be reached using the following [Github Page](https://jhalluofa.github.io/Password-Generator/)
 
 ## Finished Screenshot
 
-![Screenshot](./assets/images/Screenshot.png "Screenshot")
+![Screenshot](./Assets/images/Screenshot.png "Screenshot")
